@@ -10,7 +10,7 @@ Import
 import AnimateOnScroll from 'react-global-animate-on-scroll';
 ```
 
-Insert the component as the last component of App so it will have access to the entire DOM and its elements
+Insert the component as the last component of App so it will have access to the entire DOM and its elements, just like the image below, the <AnimateOnScroll /> is one line above the fragment </>
 ![example](https://github.com/lucasKoyama/react-global-animate-on-scroll/assets/121680414/543aef1b-75a0-4dba-a035-625f3a3ef26c)
     
 Add the class "animate__animated" for all animations and another animation that you liked from [animate.css](https://animate.style/)
