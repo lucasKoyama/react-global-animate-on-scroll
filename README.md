@@ -1,7 +1,7 @@
 # Globally animated elements on scroll with React!
 https://github.com/lucasKoyama/react-global-animate-on-scroll/assets/121680414/c2cf2721-9835-4f2c-b1a7-9d51a543824d
 
-[react-global-animate-on-scroll](https://www.npmjs.com/package/react-global-animate-on-scroll) is animations based on scroll in react made very simple!
+[react-global-animate-on-scroll](https://www.npmjs.com/package/react-global-animate-on-scroll/v/1.0.4) is animations based on scroll in react made very simple!
 ## Installation
     npm i react-global-animate-on-scroll
 ## Usage
