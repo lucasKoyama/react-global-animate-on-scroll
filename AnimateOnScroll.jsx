@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import PropTypes from 'prop-types';
 import 'animate.css';
 
 // animations to use: https://animate.style/
@@ -22,9 +21,7 @@ function AnimateOnScroll({ animateOnce = false }) {
           animations.forEach(className => classList.add(`${className}-`));
         }
 
-        if (animateOnce && entry.isIntersecting) {
-          observer.unobserve(entry.target);
-        }
+        if (animateOnce && entry.isIntersecting) { observer.unobserve(entry.target); }
       });
     });
 
@@ -36,9 +33,5 @@ function AnimateOnScroll({ animateOnce = false }) {
   }, [animateOnce]);
   return null;
 }
-
-AnimateOnScroll.propTypes = ({
-  animateOnce: PropTypes.bool,
-}).isRequired
 
 export default AnimateOnScroll;
