@@ -17,3 +17,8 @@ Add the class "animate__animated" for all animations and another animation that 
 ```html
 <h1 class="animate__animated animate__fadeInUp">An animated element</h1>
 ```
+
+The component have a boolean prop called "animateOnce" to decide if the animations is gonna happen just for the first time or everytime. Default is set to "animateOnce=false"
+```js
+<AnimateOnScroll animateOnce/>
+```
