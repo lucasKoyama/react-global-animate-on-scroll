@@ -7,7 +7,7 @@ https://github.com/lucasKoyama/react-global-animate-on-scroll/assets/121680414/c
 ## Usage
 Import
 ```js
-    import  AnimateOnScroll  from  '../node_modules/react-global-animate-on-scroll/AnimateOnScroll.jsx';
+    import AnimateOnScroll from '../node_modules/react-global-animate-on-scroll/AnimateOnScroll.jsx';
 ```
 
 Insert the component as the last component of App so it will have access to the entire DOM and its elements
