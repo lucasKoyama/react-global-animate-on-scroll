@@ -1,6 +1,6 @@
 {
   "name": "react-global-animate-on-scroll",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
